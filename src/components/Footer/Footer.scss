@@ -1,0 +1,55 @@
+@import "../../utilities/variables.scss";
+
+.footer{
+    border-top: 1px solid white;
+
+    .container{
+        padding: 3rem 0 2rem;
+        .content{
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-between;
+            padding-bottom: 3rem;
+            border-bottom: 1px solid white;
+
+            .footer-list{
+                display: flex;
+                flex-direction: column;
+                .heading{
+                    font-weight: bold;
+                    font-size: 15px;
+                    margin-bottom: 0.6rem;
+                }
+                .list{
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 0.25rem;
+                    .footer-link{
+                        font-size: 14px;
+                        &:hover{
+                            color:red;
+                        }
+                    }
+                }
+            }
+        }
+
+        .bottom{
+            padding: 1.5rem 2rem 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 14px;
+            .socials{
+                display: flex;
+                align-items: center;
+                column-gap: 0.5rem;
+                a{
+                    &:hover svg g{
+                        fill:red;
+                    }
+                }
+            }
+        }
+    }
+}

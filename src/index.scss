@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;400;500;600;700&display=swap');
+
+*,*::before,*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  color: white;
+}
+
+.container{
+  width: 80vw;
+  max-width: 1280px;
+  margin: auto;
+  height: 100%;
+}
+
+body{
+  background-color: black;
+}
+
+.btn-signin{
+  color: red;
+  border: 2px solid transparent;
+  transition: all 200ms ease-in;
+  border-radius: 6px;
+}
+
+.btn-signup{
+  color: red;
+  border: 2px solid red;
+  border-radius: 6px;
+  transition: all 200ms ease-in;
+}
