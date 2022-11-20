@@ -12,13 +12,13 @@ const Footer = () => {
           <div className="footer-list">
             <div className="heading">Elite Gym</div>
             <div className="list">
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 About Us
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Awards
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Contact Us
               </a>
             </div>
@@ -26,13 +26,13 @@ const Footer = () => {
           <div className="footer-list">
             <div className="heading">Facilities</div>
             <div className="list">
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Find Facilities
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Membership rules
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Gym Opening Times
               </a>
             </div>
@@ -40,19 +40,19 @@ const Footer = () => {
           <div className="footer-list">
             <div className="heading">Corporate</div>
             <div className="list">
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Become a Franchisee
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Corporate Membership
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Property Information
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Careers
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Press
               </a>
             </div>
@@ -60,16 +60,16 @@ const Footer = () => {
           <div className="footer-list">
             <div className="heading">Legal</div>
             <div className="list">
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Membership Agreement
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Accessibility
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Health & Safety
               </a>
-              <a className="footer-link" href="">
+              <a className="footer-link" href="#">
                 Privacy & Cookie Policy
               </a>
             </div>
@@ -78,16 +78,16 @@ const Footer = () => {
         <div className="bottom">
           <div className="copyright">&copy; Elite Gym 2022</div>
           <div className="socials">
-            <a href="">
+            <a href="#">
               <YoutubeSVG />
             </a>
-            <a href="">
+            <a href="#">
               <InstagramSVG />
             </a>
-            <a href="">
+            <a href="#">
               <FacebookSVG />
             </a>
-            <a href="">
+            <a href="#">
               <TwitterSVG />
             </a>
           </div>

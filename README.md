@@ -12,3 +12,5 @@ In Progress
 ## Demo
 
 <img src="/demo/hero.PNG" alt="Landing Page"/>
+<img src="/demo/programs.PNG" alt="Programs"/>
+<img src="/demo/supplements.PNG" alt="Supplements"/>

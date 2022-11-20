@@ -1,0 +1,15 @@
+.supplements{
+    padding: 4rem 0;
+    
+    .heading{
+        text-align: center;
+        font-size: 40px;
+        margin-bottom: 3rem;
+    }
+    .container{
+        display:grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
+        justify-content: center;
+        gap: 2rem;
+    }
+}
