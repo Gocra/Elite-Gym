@@ -4,7 +4,7 @@ import Supplement from "./Supplement";
 
 const Supplements = () => {
   return (
-    <section className="supplements" id="supplements">
+    <section className="section supplements" id="supplements">
       <h1 className="heading">Supplements</h1>
       <div className="container">
         {Data.map((supplement) => (

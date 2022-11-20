@@ -1,0 +1,50 @@
+@import "../../utilities/Section";
+
+.about{
+    margin-top: 4rem;
+    .content{
+        margin: auto;
+        margin-bottom: 4rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        p{
+            margin-bottom: 1rem;
+        }
+        ul{
+            li{
+                font-size: 15px;
+                margin-bottom: 0.25rem;
+            }
+        }
+    }
+
+    .cards{
+        display:flex;
+        // grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        .card{
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            text-align: center;
+            flex: 1 1;
+            max-width: 250px;
+            flex-basis: 150px;
+            .image{
+                margin: auto;
+                margin-bottom: 1rem;
+            }
+            .title{
+                margin-bottom: 1rem;
+                font-size: 18px;
+            }
+            p{
+                font-size: 14.5px;
+            }
+        }
+    }
+}

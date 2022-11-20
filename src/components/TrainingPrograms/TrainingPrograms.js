@@ -4,7 +4,7 @@ import Data from "./ProgramsData";
 
 const TrainingPrograms = () => {
   return (
-    <section className="training-programs" id="programs">
+    <section className="section training-programs" id="programs">
       <h1 className="heading">Training Programs</h1>
       <div className="container">
         {Data.map((program) => (

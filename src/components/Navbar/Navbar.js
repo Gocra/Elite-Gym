@@ -12,6 +12,9 @@ const Navbar = () => {
           <a className="link" href="#home">
             Home
           </a>
+          <a className="link" href="#about">
+            About
+          </a>
           {/* <a className="link" href="#">
             Features
           </a> */}
