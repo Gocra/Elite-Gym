@@ -1,0 +1,13 @@
+@import "../../utilities/Section.scss";
+
+.pricing{
+    .container{
+        max-width: 1020px;
+        .subscriptions{
+            display:grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            justify-content: center;
+            gap: 2rem;
+        }
+    }
+}

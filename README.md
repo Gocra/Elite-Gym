@@ -15,3 +15,4 @@ In Progress
 <img src="/demo/about.PNG" alt="About"/>
 <img src="/demo/programs.PNG" alt="Programs"/>
 <img src="/demo/supplements.PNG" alt="Supplements"/>
+<img src="/demo/pricing.PNG" alt="Pricing"/>

@@ -8,7 +8,7 @@ const TrainingPrograms = () => {
       <h1 className="heading">Training Programs</h1>
       <div className="container">
         {Data.map((program) => (
-          <Program {...program} />
+          <Program key={program.id} {...program} />
         ))}
       </div>
     </section>

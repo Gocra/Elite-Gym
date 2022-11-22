@@ -8,7 +8,7 @@ const Supplements = () => {
       <h1 className="heading">Supplements</h1>
       <div className="container">
         {Data.map((supplement) => (
-          <Supplement {...supplement} />
+          <Supplement key={supplement.id} {...supplement} />
         ))}
       </div>
     </section>
