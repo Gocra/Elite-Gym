@@ -42,7 +42,7 @@
     }
 
     &:hover{
-        box-shadow: 0px 0px 20px red;
+        box-shadow: 0px 0px 20px $clr-red;
     }
 
     .name{
@@ -75,7 +75,7 @@
                     width: 18px;
                     height: 18px;
                     &.red{
-                        fill:red;
+                        fill:$clr-red;
                     }
                     &.green{
                         fill:green;
@@ -111,7 +111,7 @@
     }
 
     &.Premium{
-        scale: 1.05;
+        scale: 1.075;
         .price{
             margin-bottom: 0.75rem;
         }

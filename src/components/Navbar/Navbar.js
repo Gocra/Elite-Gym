@@ -15,13 +15,13 @@ const Navbar = () => {
           <a className="link" href="#about">
             About
           </a>
-          {/* <a className="link" href="#">
+          {/* <a className="link" >
             Features
           </a> */}
           <a className="link" href="#programs">
             Programs
           </a>
-          {/* <a className="link" href="#">
+          {/* <a className="link" >
             Nutrition
           </a> */}
           <a className="link" href="#supplements">
@@ -30,15 +30,11 @@ const Navbar = () => {
           <a className="link" href="#pricing">
             Pricing
           </a>
-          {/* <a className="link" href="#">
+          {/* <a className="link" >
             Contact
           </a> */}
-          <a className="btn-signin" href="#">
-            Sign in
-          </a>
-          <a className="btn-signup" href="#">
-            Sign up
-          </a>
+          <a className="btn-signin">Sign in</a>
+          <a className="btn-signup">Sign up</a>
         </div>
       </div>
     </nav>

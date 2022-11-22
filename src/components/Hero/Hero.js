@@ -10,9 +10,7 @@ const Hero = () => {
             Step Up Your <span>Fitness</span> With Us
           </h1>
           <p>Become a Monster</p>
-          <a href="#" className="btn-signup">
-            Sign up Today
-          </a>
+          <a className="btn-signup">Sign up Today</a>
         </div>
         <img src={heroImage} className="background-image" />
       </div>

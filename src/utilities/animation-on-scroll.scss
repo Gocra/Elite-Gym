@@ -1,0 +1,12 @@
+.hide{
+    transform: translateY(25%);
+    opacity: 0;
+    filter:blur(6px);
+    transition: transform 400ms ease-in, opacity 400ms ease-in, filter 400ms ease-in;
+}
+
+.show{
+    transform: translate(0);
+    opacity: 1;
+    filter:blur(0px);
+}

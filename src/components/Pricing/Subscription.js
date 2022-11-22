@@ -1,10 +1,30 @@
 import "./Subscription.scss";
 import Tick from "../../assets/tick.svg";
 import Cross from "../../assets/cross.svg";
+import "../../utilities/animation-on-scroll.scss";
+import Observer from "../Observer";
+import { useEffect, useRef } from "react";
 
-const Subscription = ({ name, price, features, limitedFeatures }) => {
+const Subscription = ({
+  name,
+  price,
+  features,
+  limitedFeatures,
+  transitionDelay,
+}) => {
+  const styles = { transitionDelay: `${transitionDelay * 300}ms` };
+  const subscriptionRef = useRef();
+  useEffect(() => {
+    Observer.observe(subscriptionRef.current);
+    console.log(subscriptionRef.current.style.transitionDelay);
+  }, []);
+
   return (
-    <article className={`subscription ${name}`}>
+    <article
+      className={`hide subscription ${name}`}
+      style={styles}
+      ref={subscriptionRef}
+    >
       <h2 className="name">{name}</h2>
       <h2 className="price">
         £{price}/<span>Month</span>

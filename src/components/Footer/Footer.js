@@ -12,82 +12,54 @@ const Footer = () => {
           <div className="footer-list">
             <div className="heading">Elite Gym</div>
             <div className="list">
-              <a className="footer-link" href="#">
-                About Us
-              </a>
-              <a className="footer-link" href="#">
-                Awards
-              </a>
-              <a className="footer-link" href="#">
-                Contact Us
-              </a>
+              <a className="footer-link">About Us</a>
+              <a className="footer-link">Awards</a>
+              <a className="footer-link">Contact Us</a>
             </div>
           </div>
           <div className="footer-list">
             <div className="heading">Facilities</div>
             <div className="list">
-              <a className="footer-link" href="#">
-                Find Facilities
-              </a>
-              <a className="footer-link" href="#">
-                Membership rules
-              </a>
-              <a className="footer-link" href="#">
-                Gym Opening Times
-              </a>
+              <a className="footer-link">Find Facilities</a>
+              <a className="footer-link">Membership rules</a>
+              <a className="footer-link">Gym Opening Times</a>
             </div>
           </div>
           <div className="footer-list">
             <div className="heading">Corporate</div>
             <div className="list">
-              <a className="footer-link" href="#">
-                Become a Franchisee
-              </a>
-              <a className="footer-link" href="#">
-                Corporate Membership
-              </a>
-              <a className="footer-link" href="#">
-                Property Information
-              </a>
-              <a className="footer-link" href="#">
-                Careers
-              </a>
-              <a className="footer-link" href="#">
-                Press
-              </a>
+              <a className="footer-link">Become a Franchisee</a>
+              <a className="footer-link">Corporate Membership</a>
+              <a className="footer-link">Property Information</a>
+              <a className="footer-link">Careers</a>
+              <a className="footer-link">Press</a>
             </div>
           </div>
           <div className="footer-list">
             <div className="heading">Legal</div>
             <div className="list">
-              <a className="footer-link" href="#">
-                Membership Agreement
-              </a>
-              <a className="footer-link" href="#">
-                Accessibility
-              </a>
-              <a className="footer-link" href="#">
-                Health & Safety
-              </a>
-              <a className="footer-link" href="#">
-                Privacy & Cookie Policy
-              </a>
+              <a className="footer-link">Membership Agreement</a>
+              <a className="footer-link">Accessibility</a>
+              <a className="footer-link">Health & Safety</a>
+              <a className="footer-link">Privacy & Cookie Policy</a>
             </div>
           </div>
         </div>
         <div className="bottom">
-          <div className="copyright">&copy; Elite Gym 2022</div>
+          <div className="copyright">
+            &copy; Elite Gym 2022. All Rights Reserved.
+          </div>
           <div className="socials">
-            <a href="#">
+            <a>
               <YoutubeSVG />
             </a>
-            <a href="#">
+            <a>
               <InstagramSVG />
             </a>
-            <a href="#">
+            <a>
               <FacebookSVG />
             </a>
-            <a href="#">
+            <a>
               <TwitterSVG />
             </a>
           </div>
