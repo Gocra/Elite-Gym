@@ -1,10 +1,5 @@
 # Elite Gym
 
-## Tech Stack
-
-- React
-- SCSS
-
 ## Demo
 
 <img src="/demo/hero.PNG" alt="Landing Page"/>
