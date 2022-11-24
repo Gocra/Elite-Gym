@@ -1,9 +1,5 @@
 # Elite Gym
 
-## Project Status
-
-In Progress
-
 ## Tech Stack
 
 - React
@@ -16,3 +12,4 @@ In Progress
 <img src="/demo/programs.PNG" alt="Programs"/>
 <img src="/demo/supplements.PNG" alt="Supplements"/>
 <img src="/demo/pricing.PNG" alt="Pricing"/>
+<img src="/demo/footer.PNG" alt="Footer"/>

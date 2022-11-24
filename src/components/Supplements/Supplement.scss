@@ -27,14 +27,29 @@
         flex-direction: column;
         align-items: stretch;
         height: 100%;
+        @media screen and (max-width: $sm) {
+            padding: 0.75rem;
+        }
+        @media screen and (max-width: $xs) {
+            padding: 0.5rem;
+        }
         h3{
             font-size: 16px;
             font-weight: 500;
+            @media screen and (max-width: $sm) {
+                font-size: 14px;
+            }
+            @media screen and (max-width: $xs) {
+                font-size: 13px;
+            }
         }
         .price{
             margin: 0.25rem 0 0.75rem;
             font-size: 15px;
             color:$clr-red;
+            @media screen and (max-width: $sm) {
+                font-size: 14px;
+            }
         }
         .buy{
             margin-top: auto;

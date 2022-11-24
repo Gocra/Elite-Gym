@@ -15,13 +15,30 @@
             justify-content: space-between;
             border-bottom: 1px solid white;
 
+            @media screen and (max-width: $sm) {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+                padding: 0;
+                padding-bottom: 2rem;
+            }
+
             .footer-list{
                 display: flex;
                 flex-direction: column;
+                margin-right: 1rem;
+                &:last-child{
+                    margin-right: 0;
+                }
+                @media screen and (max-width: $sm) {
+                    margin-bottom: 1rem;
+                }
                 .heading{
                     font-weight: bold;
                     font-size: 15px;
                     margin-bottom: 0.6rem;
+                    @media screen and (max-width: $xs) {
+                        font-size: 14px;
+                    }
                 }
                 .list{
                     display: flex;
@@ -30,6 +47,9 @@
                     .footer-link{
                         position: relative;
                         font-size: 14px;
+                        @media screen and (max-width: $xs) {
+                            font-size: 13px;
+                        }
                         width: fit-content;
                         &::before{
                             content: "";
@@ -58,10 +78,22 @@
             align-items: center;
             justify-content: space-between;
             font-size: 14px;
+            column-gap: 0.5rem;
+            @media screen and (max-width: $sm) {
+                padding: 0;
+                padding-top: 1.5rem;
+            }
+            @media screen and (max-width: $xs) {
+                font-size: 13px;
+            }
             .socials{
                 display: flex;
                 align-items: center;
                 column-gap: 0.5rem;
+                @media screen and (max-width: $xs) {
+                    display: grid;
+                    grid-template-columns: 1fr 1fr;
+                }
                 a{
                     &:hover svg g{
                         fill:$clr-red;

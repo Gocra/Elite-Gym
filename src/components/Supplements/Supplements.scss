@@ -6,5 +6,12 @@
         grid-template-columns: repeat(auto-fit, minmax(150px, 250px));
         justify-content: center;
         gap: 2rem;
+        @media screen and (max-width: $sm) {
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+        }
+        @media screen and (max-width: $xs) {
+            gap: 0.75rem;
+        }
     }
 }

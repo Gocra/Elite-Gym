@@ -3,6 +3,7 @@
 .hero{
     height: calc(100vh - #{$navbar-height});
     background-color: black;
+    margin-top: $navbar-height;
 
     .container{
         display: flex;

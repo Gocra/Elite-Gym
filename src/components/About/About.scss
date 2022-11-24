@@ -1,4 +1,5 @@
 @import "../../utilities/Section";
+@import "../../utilities/variables";
 
 .about{
     .content{
@@ -7,24 +8,47 @@
         display: flex;
         align-items: center;
         flex-direction: column;
-        p{
+        @media screen and (max-width: $sm) {
             margin-bottom: 1rem;
         }
+        p{
+            margin-bottom: 1rem;
+            @media screen and (max-width: $sm) {
+                text-align: center;
+                font-size: 15px;
+            }
+        }
         ul{
+            width: fit-content;
             li{
                 font-size: 15px;
                 margin-bottom: 0.25rem;
+                @media screen and (max-width: $sm) {
+                    font-size: 14px;
+                }
+            }
+            @media screen and (max-width: $sm) {
+                width: 80%;
+                font-size: 14px;
             }
         }
     }
+    
 
     .cards{
         display:flex;
-        // grid-template-columns: repeat(auto-fit, minmax(150px, 200px));
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;
         gap: 2rem;
+        @media screen and (max-width: $md) {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+        @media screen and (max-width: 424px) {
+            display:flex;
+            grid-template-columns: unset;
+        }
         .card{
             display: flex;
             flex-direction: column;
@@ -32,7 +56,11 @@
             text-align: center;
             flex: 1 1;
             max-width: 250px;
-            flex-basis: 150px;
+            flex-basis: 140px;
+            @media screen and (max-width: $sm) {
+                flex: unset;
+                flex-basis: 80px;
+            }
             .image{
                 margin: auto;
                 margin-bottom: 1rem;
@@ -40,9 +68,21 @@
             .title{
                 margin-bottom: 1rem;
                 font-size: 18px;
+                @media screen and (max-width: $lg) {
+                    font-size: 16px;
+                }
+                @media screen and (max-width: $sm) {
+                    font-size: 14px;
+                }
             }
             p{
                 font-size: 14.5px;
+                @media screen and (max-width: $lg) {
+                    font-size: 13px;
+                }
+                @media screen and (max-width: $sm) {
+                    font-size: 12px;
+                }
             }
         }
     }

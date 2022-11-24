@@ -49,18 +49,31 @@
         font-size: 32px;
         text-align: center;
         margin-bottom: 0.125rem;
+        @media screen and (max-width: $lg) {
+            font-size: 28px;
+        }
     }
     .price{
         text-align: center;
         margin-bottom: 0.5rem;
         span{
             font-size: 18px;
+            @media screen and (max-width: $lg) {
+                font-size: 16px;
+            }
+        }
+        @media screen and (max-width: $lg) {
+            font-size: 20px;
+            margin-bottom: 0.25rem;
         }
     }
     ul{
         list-style: none;
         width: 100%;
         font-size: 15px;
+        @media screen and (max-width: $lg) {
+            font-size: 14px;
+        }
         li{
             margin-bottom: 0.1rem;
             display: flex;
@@ -74,6 +87,14 @@
                     margin-top: 0.15rem;
                     width: 18px;
                     height: 18px;
+                    @media screen and (max-width: $lg) {
+                        width: 16px;
+                        height: 16px;
+                    }
+                    @media screen and (max-width: $sm) {
+                        width: 13;
+                        height: 13;
+                    }
                     &.red{
                         fill:$clr-red;
                     }
@@ -112,6 +133,12 @@
 
     &.Premium{
         scale: 1.075;
+        @media screen and (max-width: $lg) {
+            scale: 1.05;
+        }
+        @media screen and (max-width: 780px) {
+            scale: 1;
+        }
         .price{
             margin-bottom: 0.75rem;
         }

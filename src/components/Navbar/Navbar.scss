@@ -1,13 +1,13 @@
 @import "../../utilities/variables";
 
 .navbar{
+    width: 100vw;
     height: $navbar-height;
     background-color: black;
     // box-shadow: 0px 10px 10px 3px $clr-red;
-    position: -webkit-sticky;
-    position: sticky;
+    position: fixed;
     top: 0;
-    z-index: 999;
+    z-index: 9999;
 
     .container{
         display: flex;
@@ -20,16 +20,38 @@
             align-items: center;
             .logo{
                 height: 50px;
+                @media screen and (max-width: $sm) {
+                    height: 38px;
+                }
             }
         }
 
         .links{
+            @media screen and (max-width: $lg) {
+                position: absolute;
+                left: 0;
+                top: $navbar-height;
+                background-color: black;
+                width: 100vw;
+                flex-direction: column;
+                padding: 0.5rem 0;
+                transform: translateY(calc(-100% - #{$navbar-height}));
+                z-index: -9999;
+                &.open{
+                    transform: translateY(0);
+                    transition: transform 300ms ease-in;
+                }
+                &.closed{
+                    transform: translateY(calc(-100% - #{$navbar-height}));
+                    transition: transform 300ms ease-in;
+                }
+            }
             display: flex;
             align-items: center;
             column-gap: 0.25rem;
 
             .link{
-                padding: 0.5rem 0.75rem;
+                padding: 0.5rem 0.5rem;
                 transition: color 200ms ease-in;
                 position: relative;
                 font-size: 15px;
